@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<HTML>
+    <head>
+        <title>project</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <style>
+        body{
+            background-color:black
+            color:black
+        }
+        .header{
+            background-color:rgb(57, 207, 187);
+            display:flex;
+            flex-direction:row;
+            justify-content: space-between;
+            align-items: center;
+            padding-inline: 50px;
+            text-align: center;
+        }
+        .links{
+            display: flex;
+            list-style-type: none;
+        }
+        .links ul li{
+            margin-inline: 30px;
+            display: flex;
+            flex-direction:row;
+            text-align: center;
+            display:inline
+            
+        }
+        .underline{
+            text-decoration: underline;
+        }
+        #container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 600px;
+            background-color:darkcyan;
+
+        }
+        #container div{
+            height: 400px;
+            width: 350px;
+            background-color:snow;
+            margin: 40px;
+            text-align: center;
+            border-radius: 40px;
+        }
+        .img{
+            height: 40px;
+            width: 50px;
+            border-radius:20px
+            border-color: black;    
+            display: block;
+            list-style: none;
+            display: flex;
+        }
+        .contact ul li{
+            display:flex;
+            justify-content:left;
+            align-items: start;
+            display: block;
+            font-size: 40px;
+            margin-right: 100px;
+            list-style: none;
+        }
+        </style>
+    <body>
+        <header class="header">
+            <div><h1>Ishimwe Kevin</h1></div>
+            <div class="links">
+                <ul>
+                    <li class="underline" style="color:crimson;">Home</li>
+                    <li style="color: blue;">about</li>
+                    <li style="color: blue;">contact</li>
+                </ul>
+            </div>
+            <div style="color: blue;">More</div>
+        </header>
+        <main>
+            <div id="container">
+                <div>
+                    <h2>About ME</h2>
+                    <P>MY name is Ishimwe Shema Kevin.And i am a new software programmer trying to improve my skills by taking on
+                        various projects so that i can further inhance my porfolio.i like playing video games,taking on various projects and watching movies
+                    </P>
+                </div>
+                <div class="skills">
+                    <h2>SKILLS</h2>
+                    <ul class="skill" style="list-style: none;">
+                    <li><img class="img" src="./html image.png" alt="html logo">intermidiate knowledge about making a website using css and html</li>
+                    <li><img class="img" src="./football image.png">I like playing football as a hobby</li>
+                    <li><img class="img" src="./images.png">I really love playing games because im good at them</li>
+                </ul>
+                </div>
+                <div>
+                    <h2>Projects</h2>
+                    <img height=200px src="./Movie ranking.png">
+                    <p>i havent taken on full projects but i have done the ones i was given on udemy such as this movie ranking one </p>
+                </div>
+                <div class="contact">
+                    <h2>Contact me</h2>
+                    <ul>
+                        <a href="https://www.facebook.com/profile.php?id=100055399013712"><li><ion-icon name="logo-facebook"></ion-icon></li></a>
+                        <a href="https://www.instagram.com/its_s_kevin/"><li><ion-icon name="logo-instagram"></ion-icon></li></a>
+                        <P style="color: blue;">NMBR:0734138622</P>
+                        <a href="http://discordapp.com/users/768187267784638484"><li><ion-icon name="logo-discord"></ion-icon></li></a>
+                    </ul>
+
+                    
+
+                </div>
+            </div>
+        </main>
+    </body>
+</HTML>
